@@ -1,0 +1,13 @@
+<odoo>
+    <record id="view_move_form" model="ir.ui.view">
+        <field name="name">account.move.line.form.discount</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='discount']" position="after">
+                <field name="discount2" width="50px" string="Disc2.%" optional="hide" options="{'min': 0, 'max': 100}"/>
+                <field name="discount3" width="50px" string="Disc3.%" optional="hide" options="{'min': 0, 'max': 100}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

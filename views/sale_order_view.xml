@@ -1,0 +1,25 @@
+<odoo>
+        <record id="view_order_form_discount" model="ir.ui.view">
+            <field name="name">sale.order.line.custom</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//list/field[@name='discount']" position="after">
+                    <field name="discount2" width="50px" groups="sale.group_discount_per_so_line" string="Disc2.%" optional="show" options="{'min': 0, 'max': 100}"/>
+                    <field name="discount3" width="50px" groups="sale.group_discount_per_so_line" string="Disc3.%" optional="show" options="{'min': 0, 'max': 100}"/>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- <record id="sale_order_line_view_form_readonly" model="ir.ui.view">
+            <field name="name">sale.order.line.form.custom</field>
+            <field name="model">sale.order.line</field>
+            <field name="inherit_id" ref="sale.sale_order_line_view_form_readonly"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='discount']" position="after">
+                    <field name="discount2" width="50px" string="Discount 2 (%)" optional="hide" options="{'min': 0, 'max': 100}"/>
+                    <field name="discount3" width="50px" string="Discount 3 (%)" optional="hide" options="{'min': 0, 'max': 100}"/>
+                </xpath>
+            </field>
+        </record> -->
+</odoo>

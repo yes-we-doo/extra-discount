@@ -1,0 +1,100 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* extra_discount
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 19:20+0000\n"
+"PO-Revision-Date: 2025-01-21 20:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. module: extra_discount
+#: model_terms:ir.ui.view,arch_db:extra_discount.report_invoice_document_disc
+msgid "<span>Disc2.%</span>"
+msgstr "<span>Rem2.%</span>"
+
+#. module: extra_discount
+#: model_terms:ir.ui.view,arch_db:extra_discount.report_invoice_document_disc
+msgid "<span>Disc3.%</span>"
+msgstr "<span>Rem3.%</span>"
+
+#. module: extra_discount
+#: model:ir.model,name:extra_discount.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: extra_discount
+#: model_terms:ir.ui.view,arch_db:extra_discount.view_move_form
+#: model_terms:ir.ui.view,arch_db:extra_discount.view_order_form_discount
+msgid "Disc2.%"
+msgstr "Rem2.%"
+
+#. module: extra_discount
+#: model_terms:ir.ui.view,arch_db:extra_discount.view_move_form
+#: model_terms:ir.ui.view,arch_db:extra_discount.view_order_form_discount
+msgid "Disc3.%"
+msgstr "Rem3.%"
+
+#. module: extra_discount
+#: model:ir.model.fields,field_description:extra_discount.field_account_move_line__discount
+msgid "Discount (%)"
+msgstr "Remise (%)"
+
+#. module: extra_discount
+#: model:ir.model.fields,field_description:extra_discount.field_account_move_line__discount2
+#: model:ir.model.fields,field_description:extra_discount.field_sale_order_line__discount2
+msgid "Discount 2 (%)"
+msgstr "Remise 2 (%)"
+
+#. module: extra_discount
+#: model:ir.model.fields,field_description:extra_discount.field_account_move_line__discount3
+#: model:ir.model.fields,field_description:extra_discount.field_sale_order_line__discount3
+msgid "Discount 3 (%)"
+msgstr "Remise 3 (%)"
+
+#. module: extra_discount
+#: model_terms:ir.ui.view,arch_db:extra_discount.view_partner_form
+msgid "Discount parameters"
+msgstr "Paramètres de remise"
+
+#. module: extra_discount
+#: model:ir.model,name:extra_discount.model_account_move_line
+msgid "Journal Item"
+msgstr "Écriture comptable"
+
+#. module: extra_discount
+#: model:ir.model.fields,field_description:extra_discount.field_res_partner__default_discount
+#: model:ir.model.fields,field_description:extra_discount.field_res_users__default_discount
+msgid "Remise 1 (%)"
+msgstr "Remise (%)"
+
+#. module: extra_discount
+#: model:ir.model.fields,field_description:extra_discount.field_res_partner__default_second_discount
+#: model:ir.model.fields,field_description:extra_discount.field_res_users__default_second_discount
+msgid "Remise 2 (%)"
+msgstr "Remise 2 (%)"
+
+#. module: extra_discount
+#: model:ir.model.fields,field_description:extra_discount.field_res_partner__default_third_discount
+#: model:ir.model.fields,field_description:extra_discount.field_res_users__default_third_discount
+msgid "Remise 3 (%)"
+msgstr "Remise 3 (%)"
+
+#. module: extra_discount
+#: model:ir.model,name:extra_discount.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Ligne de commande"
+
+#. module: extra_discount
+#: model:ir.model,name:extra_discount.model_account_tax
+msgid "Tax"
+msgstr "Taxe"
